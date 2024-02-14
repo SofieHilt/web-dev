@@ -1,6 +1,5 @@
 # My Web-Dev Repo
-In this repo i'm organizing my private curriculum to keep an overview of all the topics i'm interested in and map out 
-different aspects of web development in general. 
+This repo contains my webdev bootcamp exercises as well as my curriculum and research. 
 It's meant for personal organisation but if you think this might help you, feel free to take a look...
 
 ## My Personal Curriculum
