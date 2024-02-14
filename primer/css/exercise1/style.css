@@ -1,0 +1,38 @@
+body {
+   background-color: #000000;
+    background: radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent), radial-gradient(circle, transparent 20%, #000000 20%, #000000 80%, transparent 80%, transparent) 17.5px 17.5px, linear-gradient(purple 1.4000000000000001px, transparent 1.4000000000000001px) 0 -0.7000000000000001px, linear-gradient(90deg, purple 1.4000000000000001px, #000000 1.4000000000000001px) -0.7000000000000001px 0;
+    background-size: 35px 35px, 35px 35px, 17.5px 17.5px, 17.5px 17.5px;
+}
+
+h1 {
+    font-family: serif;
+    font-size:1.5rem;
+    color:white;
+}
+
+nav {
+    background-color:purple;
+    opacity: 1.0;
+    border-radius:50px;
+    padding: 5px;
+    margin:1.5rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+nav ul a {
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: mintcream;
+    text-decoration: none;    
+}
+
+nav ul a:hover {
+    color: rgb(255,200,0);
+}
