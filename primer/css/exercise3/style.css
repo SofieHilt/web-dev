@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+
+    display:block;
+    position: fixed;
+    width:90vw;
+    left:5vw;
+    top: 93vh;
+    border-radius: 50px;
+   background-color: rgb(230,230,230);
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+    
+}
+
+#mynav {
+    height: 3rem;
+    font-family:sans-serif;
+    color:black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow:row;
+}
+
+li a  {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:violet;
+}
+ul li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    min-width: 3rem;
+
+}
+
+body {
+    background-color: lightgray;
+    margin-bottom: 5rem;
+
+    background:
+    radial-gradient(circle at 100% 50%, transparent 20%, grey 21%,
+      grey 34%, transparent 35%, transparent),
+    radial-gradient(circle at 0% 50%, transparent 20%, grey 21%, grey 34%, transparent 35%, transparent) 0 -50px;
+  background-color: lightgray;
+  background-size: 75px 100px;
+}
+
+.gal {
+    background-color: none;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 100vw;
+    flex-flow: wrap;
+    left: 5vw;
+}
+
+.gal h2, h3, h4 {
+    font-family: serif;
+    color:black;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.gal h4 {
+    font-style: italic;
+    font-weight: 100;
+}
+
+.gal p  {
+    font-family: sans;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.piece {
+    background-color: white;
+    max-width: 360px;
+    margin: 3vw;
+    padding:5%;
+    border-radius: 20px;
+
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+}
+
+
+
+.gal button{
+    background-color: grey;
+    color: white;
+    border-style: none;
+    border-radius: 5rem;
+    padding: 1rem;
+    transition: all 0.3s;
+}
+.gal button:hover{
+    background-color: violet;
+    color: black;
+    border-style: none;
+    border-radius: 5rem;
+    padding: 1.3rem;
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ; 
+}
+
+
+@media only screen and (min-width: 1200px) {
+    body {
+    margin-top: 10rem;
+      background-color: violet;
+      background:
+  radial-gradient(circle at 100% 50%, transparent 20%, violet 21%,
+    violet 34%, transparent 35%, transparent),
+  radial-gradient(circle at 0% 50%, transparent 20%, violet 21%, violet 34%, transparent 35%, transparent) 0 -50px;
+background-color: lightgray;
+background-size: 75px 100px;
+    }
+
+header {
+
+    display:block;
+    position: fixed;
+    width:100vw;
+    left:0vw;
+    top: 0rem;
+    border-radius: 0px;
+   background-color: rgb(230,230,230);
+    box-shadow:
+    0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075),
+    0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075),
+    0 16px 16px hsl(0deg 0% 0% / 0.075)
+  ;
+    
+}
+#mynav {
+    height: 3rem;
+    font-family:sans-serif;
+    color:black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-flow:row;
+}
+
+li a  {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+li a:hover {
+    color:violet;
+}
+ul li{
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    min-width: 3rem;
+
+}
+    
+  }
