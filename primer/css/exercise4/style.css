@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #008080;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;   
+}
+
+.bordered {
+    background-color: #c0c0c0;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: white;
+    border-left-color: white;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.5) 3px 3px 4px; 
+
+}
+
+.window-title {
+    color: white;
+    background: rgb(12,35,109);
+    background: linear-gradient(90deg, rgba(12,35,109,1) -7337%, rgba(237,237,237,1) -3750%, rgba(0,212,255,1) -2187%, rgba(12,35,109,1) -1975%, rgba(12,35,109,1) -925%, rgba(12,35,109,1) 0%, rgba(161,202,244,1) 100%, rgba(12,35,109,1) 615%, rgba(12,35,109,1) 1835%, rgba(12,35,109,1) 1860%, rgba(12,35,109,1) 1860%, rgba(12,35,109,1) 1870%); 
+
+
+    padding: 0.5rem;
+    padding-left:1.5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+
+
+}
+
+.window-content  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.icon {
+    background-color: none;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.8) 1.5px 1.5px 1.5px; 
+    margin-right:1rem;
+}
+
+.window-response {
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: flex-end;
+    padding: 0rem 2rem 1rem 1rem
+}
+
+#button-respond {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    padding:0.2rem;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 3px; 
+}
+
+#button-respond:active {
+    background-color: gray;
+    border-top-color: black;
+    border-left-color: black;
+    border-bottom-color: white;
+    border-right-color: white;
+   box-shadow: rgba(0, 0, 0, 0.0) 2px 2px 3px; 
+
+}
+
+#error-window {
+    width: 50vw;
+    min-width: 300px;
+    max-width: 500px;
+}
+
